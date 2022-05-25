@@ -1,5 +1,6 @@
 import './App.css';
 import Navigation from './components/Navbar';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Image, Button, Card } from 'react-bootstrap';
 
@@ -79,6 +80,7 @@ function App() {
           </Row>
         </Container>
       </main>
+      <Footer />
     </div>
   );
 }
